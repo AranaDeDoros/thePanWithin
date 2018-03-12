@@ -1,0 +1,67 @@
+.ui.header>img{
+	width: 200px;height: 200px;
+	display: inline-block;
+	    
+
+}
+
+
+table.ui.collapsing.table{
+	margin-left: 34%;
+	margin-top: 1.6%;
+	margin-bottom: 1.6%;
+
+}
+
+
+
+#total {
+	font-size: 18px;
+	font-weight:bold;
+}
+
+
+#ret,#purchase{
+	text-align: center;
+		margin-top: 20%;
+		font-size: 30px;	margin-left: 25%;
+
+}
+
+.ui.horizontal.statistics{
+	margin-top: 45%;
+	margin-left: 25%;
+}
+
+#buy,#cancel{
+	text-align:center;
+}
+
+#mDiv{
+
+}
+
+#compra{
+}
+
+#gc{
+	font-size: 25px;
+	 display: none;
+}
+
+#panel{
+
+	   display: none;
+}
+
+div.three.wide.column{
+
+}
+
+#iv{
+
+	display: none;margin-left: 44%;
+	margin-top: 1.6%;
+	margin-bottom: 1.6%;
+}
+

@@ -1,0 +1,109 @@
+::selection{
+	background-color:#524e4d;
+    color: #e6e4e5;	
+}
+
+::-moz-selection{
+	background-color:#524e4d;
+	color: #e6e4e5;
+}
+
+
+/*a::before,{
+	content: " § ";
+}
+*/
+
+a{
+	text-decoration: none;
+	color: #dddddd; 
+	position: relative;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #dddddd;
+}
+
+a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #dddddd;
+  visibility: hidden;
+    -moz-transform: scaleX(0);
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+    -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;	
+} 
+a:hover:before {
+  visibility: visible;
+  -moz-transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);	
+}
+
+#ban{
+	text-decoration: none;
+	color: #dddddd; 
+	position: relative;
+}
+
+#ban:hover{
+	text-decoration: none;
+	color: #dddddd;
+}
+
+#ban:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 6px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  -moz-transform: scaleX(0);
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;	
+   -ms-transition: all 0.3s ease-in-out 0s;	
+} 
+#ban:hover:before {
+  visibility: visible;
+  -moz-transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);	
+  -ms-transform: scaleX(1);	
+}
+
+
+
+@font-face {font-family: "Poet";
+    src: url('../font/avantgardebook1361863138.eot');
+    src: url('../font/avantgardebook1361863138.eot') format('embedded-opentype'),
+         url('../font/avantgardebook1361863138.woff2') format('woff2'),
+         url('../font/avantgardebook1361863138.woff') format('woff'),
+         url('../font/avantgardebook1361863138.ttf') format('truetype'),
+         url('../font/avantgardebook1361863138.svg#avantgardebook1361863138') format('svg');
+}
+
+#power{
+	font-family: "Poet";
+	margin-top:-18px;
+	font-size: 14px;
+	font-style:none;
+	font-weight: 200;
+}
+
+button{
+font-size: 30px;
+}

@@ -1,0 +1,64 @@
+body{
+	height: auto;
+	width: auto;
+}
+
+#head{
+	font-family: "Poet";
+	letter-spacing: 2px;
+}
+
+
+
+.ui.internally.celled.grid{
+	margin:20px 0px 20px 0px;
+border-top: 2px solid #dddddd;
+border-bottom:2px solid #dddddd;
+}
+
+	
+.row .four.wide.column{
+		max-height: 200px;
+	max-width: 200px;
+	background-color: #f0ecc9;
+}
+
+
+.four.wide.column img{
+	width: 172px;
+	height: 172px;
+}
+
+.four.wide.column a{
+	text-decoration: none;
+}
+
+.row .four.wide.column{
+margin:10px 5px 10px 5px;
+width: 250px;
+border-top: 5px solid #ba0c2f;
+border-bottom:5px solid #595a5c;
+border-radius:5px;
+}
+
+
+
+
+.row .four.wide.column img:hover{
+	-moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+     -moz-transition: all 0.3s ease-in-out 0s;
+   -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;	
+}
+
+.row .four.wide.column img{
+	margin-top: -5px;
+	-moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+     -moz-transition: all 0.3s ease-in-out 0s;
+   -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;	
+}

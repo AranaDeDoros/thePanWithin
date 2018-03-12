@@ -1,0 +1,54 @@
+#ulabel{
+	margin:4%  0%  0% 38% ;
+	background-color: inherit;
+	text-decoration: none;
+	color: #244047;
+	
+/*   background-color: #586ed8;
+   color: #b5c9d6;*/
+
+}
+
+
+
+
+#ulabel:hover:before{
+	color: #244047;
+	content: '  Welcome ';
+}
+
+
+
+#su{
+
+	margin: 2%  0%  0% 2% ;
+width: 330px;
+	height: 15px;
+	text-align: left;
+	font-size: 20px;
+}
+
+#su::before{
+	content: '-    ';
+}
+
+#su::after{
+	content: '     -';
+}
+
+
+div.detail{
+ 
+	width: 325px;
+	height: 5px;
+}
+
+#l{
+
+ margin: -3%  10%  0% 65% ;
+
+}
+
+#pch->tr->th{
+	color:inherit;
+}

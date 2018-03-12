@@ -1,0 +1,80 @@
+body {
+      background-color: #ecedec;
+      font-family: "Poet";
+      height: auto;
+    }
+    body > .grid {
+      height:97%;
+    }
+    .image {
+    }
+
+    a{
+      color:#000000;
+    }
+
+    a:hover{
+      color:#dddddd;
+    }
+
+
+    .column {
+      max-width: 700px;
+           font-family: "Poet";
+    }
+
+
+    .ui.inverted.stacked.segment {
+    border:4px solid #312f2f;
+    }
+
+    #steps{
+margin-bottom: 15px;
+height:50px;
+    }
+
+ div.title span{
+    color: #00b159;
+
+    }
+
+    div.description span{
+      color:#007b3e;
+    }
+
+
+.ui.error.message,.ui.success.message,.ui.warning.message{
+  margin:-10px 0px -5px 0px;
+  height: auto;
+  font-size: 14px;
+}
+
+    .ui.message,#msg{
+background-color: #ffcc5c;
+margin:8px 0px 0px 0px;
+
+    }
+
+    #sigin{
+      background-color:#d11141;
+    }
+
+    #ft{
+      color:#666c60;
+    }
+
+    label{    
+      float: left;
+    }
+
+      #small:hover{ 
+        -moz-filter:brightness(70%);-webkit-filter: brightness(70%);filter: brightness(70%);-ms-filter:brightness(70%); -o-filter:brightness(70%);
+              -moz-filter:invert(75);-webkit-filter: invert(75%);filter: invert(75%); -ms-filter:invert(75%);-o-filter:invert(75%);
+              }
+
+
+.ui.middle.aligned.center.aligned.grid{
+  height: auto;
+margin-bottom: 1.66%;
+}
+
